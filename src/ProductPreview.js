@@ -6,6 +6,7 @@ const ProductPreview = (props) => {
     return(
 <div className={classes.ProductPreview}>
               <img src={props.currentPreviewImage} alt="Product Preview" />
+              {/* channges */}
               {props.currentSelectedFeature===1?
                  <div className={classes.HeartBeatSection}>
                  <i className="fas fa-heartbeat"></i>
